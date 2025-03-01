@@ -1,0 +1,39 @@
+Student: Hi Professor, I'm a little confused about antiderivatives.  Could you explain the concept and how it relates to derivatives?
+
+Teacher:  Certainly!  Think of derivatives as finding the *instantaneous rate of change* of a function.  If you have a function f(x), its derivative, f'(x), tells you the slope of the tangent line at any point x.  Antiderivatives are the *reverse* process.  Given a function f(x), we're looking for a function F(x) whose derivative is f(x). That is, F'(x) = f(x).  We call F(x) an antiderivative of f(x).
+
+Student: So, if I find the derivative of a function, I can find its antiderivative by just reversing the steps?
+
+Teacher: Not quite. While the idea is to reverse the process, it's not as straightforward as simply undoing each step.  The derivative of a constant is always zero,  meaning many different functions could have the same derivative. For example, the derivative of x² is 2x, but so is the derivative of x² + 1, x² + 5, or x² + any constant.
+
+Student: Oh, I see. So there isn't just *one* antiderivative?
+
+Teacher: Exactly!  If F(x) is an antiderivative of f(x), then F(x) + C, where C is any constant, is also an antiderivative. We call F(x) + C the *general antiderivative*.  To find a specific antiderivative (a *particular* antiderivative), we need additional information, such as the value of the function at a specific point.
+
+
+Student: Could you show me an example?
+
+Teacher: Let's find an antiderivative of f(x) = x².  We know that the power rule for derivatives states that the derivative of xⁿ is nxⁿ⁻¹.  Working backward, we might guess that an antiderivative of x² is x³. However, the derivative of x³ is 3x², not x². To correct this, we adjust our guess to (1/3)x³.  The derivative of (1/3)x³ is x², making it an antiderivative of x². But remember, (1/3)x³ + C is also an antiderivative for any constant C.
+
+Student:  Okay, I think I get that.  What about other functions? Like, what's the antiderivative of eˣ?
+
+Teacher:  Since the derivative of eˣ is eˣ, the antiderivative of eˣ is simply eˣ + C.
+
+Student: And what about something more complicated, like finding the antiderivative of a sum or difference of functions?
+
+Teacher: We have rules for that too!  They're similar to the rules for derivatives.  If we want to find the antiderivative of [f(x) + g(x)], we can find the antiderivatives of f(x) and g(x) separately and add them together. The same goes for subtraction: the antiderivative of [f(x) - g(x)] is the antiderivative of f(x) minus the antiderivative of g(x). Also, the antiderivative of a constant times a function is the constant times the antiderivative of the function.
+
+
+Student: This is helpful! So, we use the indefinite integral notation ∫f(x)dx = F(x) + C  to represent the general antiderivative?
+
+Teacher: Precisely! The symbol ∫ is called the integral sign, f(x) is the integrand, and dx indicates that we're integrating with respect to x.  The result is the general antiderivative, F(x) + C.
+
+
+Student: What if I have additional information, like a point on the curve?
+
+Teacher: Then you can find the *particular* antiderivative. Let’s say you have F'(x) = 2x and know that F(1) = 3.  The general antiderivative is x² + C.   Plugging in the point (1,3), we get 3 = 1² + C, so C = 2. The particular antiderivative is x² + 2.
+
+
+Student: That makes much more sense now. Thank you, Professor!
+
+Teacher: You're welcome!  Remember, practice is key.  The more antiderivatives you calculate, the more comfortable you'll become with the process.  And always remember to add that constant of integration, C!
