@@ -13,7 +13,7 @@ from PyPDF2 import PdfReader
 # Without an API key, Google won't know who is making the request or whether you have permission to use their AI model.
 # It acts as a security measure to prevent unauthorized access to the service.
 
-GEMINI_API_KEY = "AIzaSyAIw9RCxbfjugLuCDHmKljWSG8D_AQA_3E"
+GEMINI_API_KEY = "some key"
 
 # we now need to set up a connection to gemni AI model, using the API key 
 genai.configure(api_key=GEMINI_API_KEY) 
